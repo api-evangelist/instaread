@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: https://wordpress.org/plugins/instaread-audio-player/
+packages:
+  - language: php
+    registry: wordpress
+    name: instaread-audio-player
+    url: https://wordpress.org/plugins/instaread-audio-player/
+    install: Search "Instaread Audio Player" in the WordPress plugin installer, or upload the zip to /wp-content/plugins/
+    download: https://downloads.wordpress.org/plugin/instaread-audio-player.1.2.6.zip
+    version: 1.2.6
+    requires: WordPress 5.0+, PHP 7.0+
+    official: true
+    description: >-
+      Official Instaread WordPress plugin that embeds the Instaread Player audio
+      widget, automatically converting posts/articles into natural-sounding
+      AI audio. Author/contributor "instaread"; connects to https://instaread.co.

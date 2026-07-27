@@ -1,7 +1,28 @@
 aid: instaread
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instaread.png
 name: Instaread
-description: Instaread is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Instaread is a media and audio technology company with two products. Its consumer app
+  delivers ~15-minute audio and text summaries of bestselling books across business,
+  self-help, history, health, politics, and fiction on mobile, tablet, and desktop. Its
+  publisher product, Instaread Player, is a free embeddable audio widget that uses AI
+  text-to-speech (including custom voice cloning) to convert website articles, blogs, and
+  newsletters into natural-sounding audio, monetized for publishers through programmatic
+  audio advertising. The Player is used by 200+ brands, ships ADA/WCAG accessibility
+  support, an analytics dashboard, podcast distribution, and a WordPress plugin, and works
+  on Squarespace, Wix, Webflow, and custom sites via a single embed code. Instaread does
+  not publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/instaread/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Audio
+- Text-to-Speech
+- Publishing
+- Media
+- Accessibility
+- Book Summaries
+- WordPress
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,31 @@ maintainers:
 common:
 - type: Website
   url: https://instaread.co
+- type: Product
+  name: Instaread Player (publisher audio widget)
+  url: https://instaread.co/audio-player
+- type: Support
+  name: Help & Contact
+  url: https://instaread.co/contact
+- type: Blog
+  name: The Nugget
+  url: https://thenugget.instaread.co
+- type: Login
+  url: https://instaread.co/login
+- type: TermsOfService
+  url: https://instaread.co/terms
+- type: PrivacyPolicy
+  url: https://instaread.co/privacy
+- type: LLMsTxt
+  name: Instaread llms.txt
+  url: llms/instaread-llms.txt
+- type: Packages
+  name: Instaread WordPress plugin
+  url: packages/instaread-packages.yml
+- type: DomainSecurity
+  url: security/instaread-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
